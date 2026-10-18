@@ -58,10 +58,10 @@ def main():
     print("---------------------------------------------------\n\n")
 
     #train test split is not needed as they've already split the training set off
-
-
+    #If its determined that a validation split is needed it will go here
     print("Training the model...")
 
+    
 
 
 

@@ -5,6 +5,10 @@ New dataset: https://www.kaggle.com/datasets/klu2000030172/birds-image-dataset
 Full datasets omitted from being committed to Github, but the CSVs detailing the data have
 been included to provide a rough idea of the shape of the data. 
 
+Initial test dataset key was provided as being all 0s. While 0 is a valid class, it is obvious
+that the test images do not all belong to the same class. Test.csv is to serve as the "answer key"
+to test against, but first, each test image must be labeled.
+
 Bird ID assistance provided by members of RIT Birding Club.
 ID | Bird Name
 0 
@@ -24,7 +28,7 @@ ID | Bird Name
 14
 15
 16 | American Herring Gull or Ring Billed Gull
-17 | Some sort of hummingbird - Ruby throated?
+17 | Some sort of hummingbird 
 18 | Storm Petrel???
 19
 20 | Eastern Meadowlark
@@ -35,7 +39,7 @@ ID | Bird Name
 25 | Olive Sided Flycatcher
 26 | Greater Roadrunner
 27
-28
+28 | Prothonotary Warbler
 29
 30
 31 | White crowned sparrow
@@ -51,9 +55,9 @@ ID | Bird Name
 41
 42
 43
-44 | Some sort of woodpecker
-45
+44 | Red bellied woodpecker
+45 | Red headed woodpecker
 46
 47 | Carolina wren?
-48
+48 | Cactus wren?
 49
